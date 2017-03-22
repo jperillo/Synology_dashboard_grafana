@@ -1,6 +1,10 @@
 # Synology_dashboard_grafana
 A grafana dashboard for monitoring Synology NAS
 
+Dependencies
+InfluxDB as the time-series database
+Telegraf as the collector
+
 Quick Start
 - Enable SNMP on your Synology NAS
 - Merge input_syno_telegraf.conf with your local Telegraf instance configuration (or create a new instance)
